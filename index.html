@@ -1,10 +1,24 @@
 <!doctype html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"></meta>
-		<title>breeze</title>
-	</head>
-	<body>
-		<a href="https://blog.qingf.me">Emmmmm..............</a>
-	</body>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"></meta>
+  <title>breeze</title>
+</head>
+
+<body>
+  <a href="https://blog.qingf.me">Emmmmm..............</a>
+  <image src="http://fed.welian.com/3_welian/v1/wl-mb-slide-banner1.png"></image>
+  <script src="/index.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(registration => {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope)
+      }).catch(e => {
+        console.log('ServiceWorker registration failed: ', e)
+      })
+    }
+  </script>
+</body>
+
 </html>
