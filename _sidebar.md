@@ -1,2 +1,2 @@
-* [入门](README)
+* [入门](zh-cn/home)
 * [指南](zh-cn/quickstarted)
