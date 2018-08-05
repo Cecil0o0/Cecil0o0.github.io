@@ -1,0 +1,12 @@
+{
+  "name": "olio-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none",
+  "scripts": {
+    "publish": "gh-pages -d _book -r git@github.com:Cecil0o0/cecil0o0.github.io.git -b gh-pages",
+    "serve": "gitbook serve"
+  },
+  "author": "Cecil",
+  "license": "MIT"
+}
